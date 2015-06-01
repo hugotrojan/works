@@ -9,5 +9,6 @@ local function createHelloLayer()
 end  
   
 local scene = CCScene:create();  
+scene:retain();
 scene:addChild(createHelloLayer());  
 CCDirector:sharedDirector():runWithScene(scene);  
