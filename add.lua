@@ -8,7 +8,7 @@ local function createHelloLayer()
     return layer  
 end  
   
-local scene = CCScene:create();  
+local scene = CCScene:createproject();  
 scene:retain();
 scene:addChild(createHelloLayer());  
 CCDirector:sharedDirector():runWithScene(scene);  
